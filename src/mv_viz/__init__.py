@@ -1,0 +1,22 @@
+# This file is a part of the program: MultiVariate Viz
+# A simple python GUI tool to visualize multivariate data and create PCA models
+# (see <https://github.com/hilary-luo/mv_viz>)
+#
+# Copyright (c) 2024, Hilary Luo and contributors, All right reserved.
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Lesser General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+# Read version from installed package
+from importlib.metadata import version
+__version__ = version(__name__)
